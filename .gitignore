@@ -1,0 +1,29 @@
+# Build and execution files
+*.exe
+*.out
+*.test
+*.prof
+*.trace
+
+# Output directories
+/bin
+/pkg
+
+# Local configuration files
+/.env
+
+# Debug files
+.DS_Store
+
+# Cache and temporary directories
+*.log
+logs/
+tmp/
+.vscode/
+
+# Go module dependencies
+/go.sum
+/go.mod
+
+# Project-specific dependencies (e.g., /vendor/ for GOPATH-based projects)
+/vendor/
